@@ -1,3 +1,3 @@
 # Resharper.Snippets
 
-My favourite Resharper.Snippets
+My favourite Resharper snippets
