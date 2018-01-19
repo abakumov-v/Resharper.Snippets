@@ -1,0 +1,34 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Description/@EntryValue">Exception</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Text/@EntryValue">using System;&#xD;
+$HEADER$namespace $NAMESPACE$&#xD;
+{&#xD;
+	public class $CLASS$ : Exception&#xD;
+	{&#xD;
+		public $CLASS$() : base()&#xD;
+        { }&#xD;
+        public $CLASS$(string message) : base(message)&#xD;
+        { }&#xD;
+		$END$&#xD;
+	}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Categories/=Imported_002001_002E12_002E2017/@EntryIndexedValue">Imported 01.12.2017</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Categories/=My_0020File_0020Templates/@EntryIndexedValue">My File Templates</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/CustomProperties/=FileName/@EntryIndexedValue">Class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Field/=HEADER/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Field/=HEADER/Expression/@EntryValue">fileheader()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Field/=HEADER/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Field/=NAMESPACE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Field/=CLASS/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Field/=CLASS/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>
