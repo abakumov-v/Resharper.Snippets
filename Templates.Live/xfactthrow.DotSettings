@@ -1,0 +1,25 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Shortcut/@EntryValue">xfactthrow</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Description/@EntryValue">xUnit test with asserting throw</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Text/@EntryValue">[Fact]&#xD;
+public void Ctor__$InputTestConditions$__Throw$Exception$()&#xD;
+{&#xD;
+	// Arrange&#xD;
+	var act = new Action(() =&gt; $ThrowAction$);	&#xD;
+	// Act &amp; Assert&#xD;
+	Assert.Throws&lt;$Exception$&gt;(act);&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Categories/=My_0020Code_0020Live_0020Templates/@EntryIndexedValue">My Code Live Templates</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Field/=InputTestConditions/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Field/=InputTestConditions/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Field/=Exception/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Field/=Exception/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Field/=ThrowAction/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Field/=ThrowAction/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>
