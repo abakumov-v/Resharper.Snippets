@@ -7,7 +7,7 @@ using Xunit;&#xD;
 namespace $NAMESPACE$&#xD;
 {&#xD;
 	[ExcludeFromCodeCoverage]&#xD;
-	public class $CLASS$Test&#xD;
+	public class $CLASS$Tests&#xD;
 	{&#xD;
 		private $CLASS$ CreateTestedComponent$END$()&#xD;
 		{&#xD;
@@ -29,8 +29,8 @@ namespace $NAMESPACE$&#xD;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Categories/=My_0020File_0020Templates/@EntryIndexedValue">My File Templates</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/CustomProperties/=FileName/@EntryIndexedValue">Class</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/CustomProperties/=FileName/@EntryIndexedValue">Class</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
@@ -40,6 +40,7 @@ namespace $NAMESPACE$&#xD;
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Field/=HEADER/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Field/=NAMESPACE/Order/@EntryValue">1</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Field/=CLASS/Expression/@EntryValue">getAlphaNumericFileNameWithoutExtension()</s:String>
