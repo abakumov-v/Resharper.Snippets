@@ -6,9 +6,11 @@
 public void Ctor__$InputTestConditions$__Throw$Exception$()&#xD;
 {&#xD;
 	// Arrange&#xD;
-	var act = new Action(() =&gt; $ThrowAction$);	&#xD;
-	// Act &amp; Assert&#xD;
-	Assert.Throws&lt;$Exception$&gt;(act);&#xD;
+	Action act = () =&gt; $ThrowAction$;	&#xD;
+	// Act &#xD;
+	var ex = Record.Exception(act);&#xD;
+	//Assert&#xD;
+	Assert.IsType&lt;$Exception$&gt;(ex);&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
