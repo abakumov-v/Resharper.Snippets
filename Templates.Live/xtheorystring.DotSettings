@@ -1,0 +1,32 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Shortcut/@EntryValue">xtheorystring</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Description/@EntryValue">xUnit Theory method for check that string parameter is null or empty</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Text/@EntryValue">[Theory]&#xD;
+[InlineData(null)]&#xD;
+[InlineData("")]&#xD;
+[InlineData(" ")]&#xD;
+public void $TestedMethod$__$Property$IsNullOrEmpty__$AssertResult$(string $variable$)&#xD;
+{&#xD;
+	// Arrange&#xD;
+	$END$&#xD;
+	// Act&#xD;
+&#xD;
+	// Assert&#xD;
+	Assert.NotNull(null);&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Categories/=My_0020Code_0020Live_0020Templates/@EntryIndexedValue">My Code Live Templates</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Field/=TestedMethod/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Field/=TestedMethod/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Field/=Property/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Field/=Property/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Field/=AssertResult/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Field/=AssertResult/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Field/=variable/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Field/=variable/Order/@EntryValue">3</s:Int64></wpf:ResourceDictionary>
