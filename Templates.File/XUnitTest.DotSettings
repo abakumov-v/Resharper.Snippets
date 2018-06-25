@@ -7,7 +7,7 @@ using Xunit;&#xD;
 namespace $NAMESPACE$&#xD;
 {&#xD;
 	[ExcludeFromCodeCoverage]&#xD;
-	public class $CLASS$Tests&#xD;
+	public class $CLASS$&#xD;
 	{&#xD;
 		private $CLASS$ CreateTestedComponent$END$()&#xD;
 		{&#xD;
