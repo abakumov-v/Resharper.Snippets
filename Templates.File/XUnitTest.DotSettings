@@ -7,6 +7,7 @@ using Xunit;&#xD;
 namespace $NAMESPACE$&#xD;
 {&#xD;
 	[ExcludeFromCodeCoverage]&#xD;
+	[Trait("Category", "$TestCategory$")]&#xD;
 	public class $CLASS$&#xD;
 	{&#xD;
 		private $CLASS$ CreateTestedComponent$END$()&#xD;
@@ -42,6 +43,8 @@ namespace $NAMESPACE$&#xD;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Field/=NAMESPACE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Field/=TestCategory/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Field/=TestCategory/Order/@EntryValue">2</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Field/=CLASS/Expression/@EntryValue">getAlphaNumericFileNameWithoutExtension()</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Field/=CLASS/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Field/=CLASS/Order/@EntryValue">3</s:Int64></wpf:ResourceDictionary>
