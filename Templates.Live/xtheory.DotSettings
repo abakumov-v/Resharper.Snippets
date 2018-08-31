@@ -3,7 +3,7 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD9E67F223701C488940785F23F221F8/Shortcut/@EntryValue">xtheory</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD9E67F223701C488940785F23F221F8/Description/@EntryValue">xUnit Theory method</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD9E67F223701C488940785F23F221F8/Text/@EntryValue">[Theory]&#xD;
-[MemberData(nameof($SourceName$))&#xD;
+[MemberData(nameof($SourceName$))]&#xD;
 public void $Method$()&#xD;
 {&#xD;
 	// Arrange&#xD;
