@@ -1,0 +1,26 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79B169FC4441094DAC222D682CA9CD9D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79B169FC4441094DAC222D682CA9CD9D/Shortcut/@EntryValue">xtheoryasync</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79B169FC4441094DAC222D682CA9CD9D/Description/@EntryValue">xUnit Theory async method</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79B169FC4441094DAC222D682CA9CD9D/Text/@EntryValue">[Theory]&#xD;
+[MemberData(nameof($SourceName$))]&#xD;
+public async Task $Method$()&#xD;
+{&#xD;
+	// Arrange&#xD;
+	$END$&#xD;
+	// Act&#xD;
+&#xD;
+	// Assert&#xD;
+	Assert.NotNull(null);&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79B169FC4441094DAC222D682CA9CD9D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79B169FC4441094DAC222D682CA9CD9D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79B169FC4441094DAC222D682CA9CD9D/Categories/=My_0020Code_0020Live_0020Templates/@EntryIndexedValue">My Code Live Templates</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79B169FC4441094DAC222D682CA9CD9D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79B169FC4441094DAC222D682CA9CD9D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79B169FC4441094DAC222D682CA9CD9D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79B169FC4441094DAC222D682CA9CD9D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79B169FC4441094DAC222D682CA9CD9D/Field/=Method/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79B169FC4441094DAC222D682CA9CD9D/Field/=Method/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79B169FC4441094DAC222D682CA9CD9D/Field/=SourceName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79B169FC4441094DAC222D682CA9CD9D/Field/=SourceName/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>
