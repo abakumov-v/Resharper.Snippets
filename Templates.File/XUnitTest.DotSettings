@@ -10,7 +10,7 @@ namespace $NAMESPACE$&#xD;
 	[Trait("Category", "$TestCategory$")]&#xD;
 	public class $CLASS$&#xD;
 	{&#xD;
-		private $CLASS$ CreateTestedComponent$END$()&#xD;
+		private $CLASS$$END$ CreateTestedComponent()&#xD;
 		{&#xD;
 			throw new NotImplementedException();&#xD;
 		}&#xD;
