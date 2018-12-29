@@ -12,7 +12,7 @@ namespace $NAMESPACE$&#xD;
 	{&#xD;
 		private $CLASS$$END$ CreateTestedComponent()&#xD;
 		{&#xD;
-			throw new NotImplementedException();&#xD;
+			return new $CLASS$();&#xD;
 		}&#xD;
 &#xD;
 		[Fact]&#xD;
