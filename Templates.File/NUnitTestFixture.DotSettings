@@ -10,9 +10,15 @@ namespace $NAMESPACE$&#xD;
 	[ExcludeFromCodeCoverage]&#xD;
 	public class $CLASS$Test&#xD;
 	{&#xD;
-		private $CLASS$ CreateTestedComponent$END$()&#xD;
+		private $CLASS$$END$ CreateTestedComponent()&#xD;
 		{&#xD;
-			throw new NotImplementedException();&#xD;
+			return new $CLASS$();&#xD;
+		}&#xD;
+&#xD;
+		[SetUp]&#xD;
+		public void Init()&#xD;
+		{&#xD;
+			&#xD;
 		}&#xD;
 &#xD;
 		[Test]&#xD;
@@ -30,6 +36,7 @@ namespace $NAMESPACE$&#xD;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Categories/=My_0020File_0020Templates/@EntryIndexedValue">My File Templates</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Categories/=Imported_002018_002E06_002E2019/@EntryIndexedValue">Imported 18.06.2019</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/CustomProperties/=FileName/@EntryIndexedValue">Class</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
