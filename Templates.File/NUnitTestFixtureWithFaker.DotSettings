@@ -1,0 +1,55 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Description/@EntryValue">NUnit test fixture with Faker</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Text/@EntryValue">$HEADER$using System.Diagnostics.CodeAnalysis;&#xD;
+using NUnit.Framework;&#xD;
+&#xD;
+namespace $NAMESPACE$&#xD;
+{&#xD;
+	[TestFixture]&#xD;
+	[ExcludeFromCodeCoverage]&#xD;
+	public class $CLASS$Test&#xD;
+	{&#xD;
+		private readonly Faker _faker = new Faker();&#xD;
+&#xD;
+		private $CLASS$$END$ CreateTestedComponent()&#xD;
+		{&#xD;
+			return new $CLASS$();&#xD;
+		}&#xD;
+&#xD;
+		[SetUp]&#xD;
+		public void Init()&#xD;
+		{&#xD;
+			&#xD;
+		}&#xD;
+&#xD;
+		[Test]&#xD;
+		public void Test()&#xD;
+		{&#xD;
+			// Arrange&#xD;
+			&#xD;
+			// Act&#xD;
+&#xD;
+			// Assert&#xD;
+			Assert.Fail();&#xD;
+		}		&#xD;
+	}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/CustomProperties/=FileName/@EntryIndexedValue">Class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=HEADER/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=HEADER/Expression/@EntryValue">fileheader()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=HEADER/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=NAMESPACE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=CLASS/Expression/@EntryValue">getAlphaNumericFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=CLASS/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>
