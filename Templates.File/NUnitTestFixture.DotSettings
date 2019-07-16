@@ -2,41 +2,31 @@
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Description/@EntryValue">NUnit test fixture</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Text/@EntryValue">$HEADER$using System.Diagnostics.CodeAnalysis;&#xD;
+using System.Threading.Tasks;&#xD;
 using NUnit.Framework;&#xD;
 &#xD;
 namespace $NAMESPACE$&#xD;
 {&#xD;
 	[TestFixture]&#xD;
 	[ExcludeFromCodeCoverage]&#xD;
-	public class $CLASS$Test&#xD;
+	[Category("Unit")]&#xD;
+	public class $CLASS$Tests&#xD;
 	{&#xD;
-		private $CLASS$$END$ CreateTestedComponent()&#xD;
-		{&#xD;
-			return new $CLASS$();&#xD;
-		}&#xD;
-&#xD;
+		private $CLASS$ _testModule;&#xD;
+		&#xD;
 		[SetUp]&#xD;
 		public void Init()&#xD;
 		{&#xD;
-			&#xD;
+			_testModule = new $END$&#xD;
 		}&#xD;
-&#xD;
-		[Test]&#xD;
-		public void Test()&#xD;
-		{&#xD;
-			// Arrange&#xD;
-			&#xD;
-			// Act&#xD;
-&#xD;
-			// Assert&#xD;
-			Assert.Fail();&#xD;
-		}		&#xD;
+		&#xD;
 	}&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Categories/=My_0020File_0020Templates/@EntryIndexedValue">My File Templates</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Categories/=Imported_002004_002E07_002E2019/@EntryIndexedValue">Imported 04.07.2019</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Categories/=Imported_002018_002E06_002E2019/@EntryIndexedValue">Imported 18.06.2019</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Categories/=My_0020File_0020Templates/@EntryIndexedValue">My File Templates</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/CustomProperties/=FileName/@EntryIndexedValue">Class</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>

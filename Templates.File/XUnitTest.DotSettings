@@ -2,6 +2,7 @@
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Description/@EntryValue">XUnit test</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Text/@EntryValue">$HEADER$using System.Diagnostics.CodeAnalysis;&#xD;
+using System.Threading.Tasks;&#xD;
 using Xunit;&#xD;
 &#xD;
 namespace $NAMESPACE$&#xD;
@@ -10,25 +11,17 @@ namespace $NAMESPACE$&#xD;
 	[Trait("Category", "$TestCategory$")]&#xD;
 	public class $CLASS$&#xD;
 	{&#xD;
-		private $CLASS$$END$ CreateTestedComponent()&#xD;
+		private readonly $CLASS$ _testModule;&#xD;
+		&#xD;
+		public void $CLASS$()&#xD;
 		{&#xD;
-			return new $CLASS$();&#xD;
+			_testModule = new $END$&#xD;
 		}&#xD;
-&#xD;
-		[Fact]&#xD;
-		public void Test()&#xD;
-		{&#xD;
-			// Arrange&#xD;
-			&#xD;
-			// Act&#xD;
-&#xD;
-			// Assert&#xD;
-			Assert.NotNull(null);&#xD;
-		}		&#xD;
 	}&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Categories/=Imported_002004_002E07_002E2019/@EntryIndexedValue">Imported 04.07.2019</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/Categories/=My_0020File_0020Templates/@EntryIndexedValue">My File Templates</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED27AD0DF9CD4647B76188AD0FFF262E/CustomProperties/=FileName/@EntryIndexedValue">Class</s:String>

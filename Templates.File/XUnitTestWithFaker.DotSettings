@@ -2,8 +2,9 @@
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07B4B24F11FE934FBD1B08D359491096/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07B4B24F11FE934FBD1B08D359491096/Description/@EntryValue">XUnit test with Faker (Bogus)</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07B4B24F11FE934FBD1B08D359491096/Text/@EntryValue">$HEADER$using System.Diagnostics.CodeAnalysis;&#xD;
-using Xunit;&#xD;
+using System.Threading.Tasks;&#xD;
 using Bogus;&#xD;
+using Xunit;&#xD;
 &#xD;
 namespace $NAMESPACE$&#xD;
 {&#xD;
@@ -12,28 +13,20 @@ namespace $NAMESPACE$&#xD;
 	public class $CLASS$&#xD;
 	{&#xD;
 		private readonly Faker _faker = new Faker();&#xD;
-&#xD;
-		private $CLASS$$END$ CreateTestedComponent()&#xD;
+		private readonly $CLASS$ _testModule;&#xD;
+		&#xD;
+		public void $CLASS$()&#xD;
 		{&#xD;
-			return new $CLASS$();&#xD;
+			_testModule = new $END$&#xD;
 		}&#xD;
-&#xD;
-		[Fact]&#xD;
-		public void Test()&#xD;
-		{&#xD;
-			// Arrange&#xD;
-			&#xD;
-			// Act&#xD;
-&#xD;
-			// Assert&#xD;
-			Assert.NotNull(null);&#xD;
-		}		&#xD;
+		&#xD;
 	}&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07B4B24F11FE934FBD1B08D359491096/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07B4B24F11FE934FBD1B08D359491096/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07B4B24F11FE934FBD1B08D359491096/CustomProperties/=FileName/@EntryIndexedValue">Class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07B4B24F11FE934FBD1B08D359491096/Categories/=Imported_002004_002E07_002E2019/@EntryIndexedValue">Imported 04.07.2019</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07B4B24F11FE934FBD1B08D359491096/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07B4B24F11FE934FBD1B08D359491096/CustomProperties/=FileName/@EntryIndexedValue">Class</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07B4B24F11FE934FBD1B08D359491096/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07B4B24F11FE934FBD1B08D359491096/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07B4B24F11FE934FBD1B08D359491096/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
