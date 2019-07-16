@@ -10,7 +10,7 @@ namespace $NAMESPACE$&#xD;
 {&#xD;
 	[ExcludeFromCodeCoverage]&#xD;
 	[Trait("Category", "$TestCategory$")]&#xD;
-	public class $CLASS$&#xD;
+	public class $CLASS$Tests&#xD;
 	{&#xD;
 		private readonly Faker _faker = new Faker();&#xD;
 		private readonly $CLASS$ _testModule;&#xD;
