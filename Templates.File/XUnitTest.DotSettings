@@ -13,7 +13,7 @@ namespace $NAMESPACE$&#xD;
 	{&#xD;
 		private readonly $CLASS$ _testModule;&#xD;
 		&#xD;
-		public $CLASS$()&#xD;
+		public $CLASS$Tests()&#xD;
 		{&#xD;
 			_testModule = new $END$&#xD;
 		}&#xD;

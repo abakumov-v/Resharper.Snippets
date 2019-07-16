@@ -15,7 +15,7 @@ namespace $NAMESPACE$&#xD;
 		private readonly Faker _faker = new Faker();&#xD;
 		private readonly $CLASS$ _testModule;&#xD;
 		&#xD;
-		public $CLASS$()&#xD;
+		public $CLASS$Tests()&#xD;
 		{&#xD;
 			_testModule = new $END$&#xD;
 		}&#xD;
