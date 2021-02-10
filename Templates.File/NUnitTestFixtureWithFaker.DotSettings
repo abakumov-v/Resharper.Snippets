@@ -10,7 +10,7 @@ namespace $NAMESPACE$&#xD;
 {&#xD;
 	[TestFixture]&#xD;
 	[ExcludeFromCodeCoverage]&#xD;
-	[Category("Unit")]&#xD;
+	[Category("$Category$")]&#xD;
 	public class $CLASS$Tests&#xD;
 	{&#xD;
 		private Faker _faker;&#xD;
@@ -42,6 +42,8 @@ namespace $NAMESPACE$&#xD;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=NAMESPACE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=Category/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=Category/Order/@EntryValue">2</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=CLASS/Expression/@EntryValue">getAlphaNumericFileNameWithoutExtension()</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=CLASS/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6678E126571E534A983C19D5A7AE6663/Field/=CLASS/Order/@EntryValue">3</s:Int64></wpf:ResourceDictionary>

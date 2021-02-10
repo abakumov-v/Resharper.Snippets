@@ -1,0 +1,46 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Description/@EntryValue">Static class (Fake generator)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Text/@EntryValue">$HEADER$namespace $NAMESPACE$&#xD;
+{&#xD;
+  public static class $CLASS$ &#xD;
+  {&#xD;
+	private static readonly Faker&lt;$FakedEntity$&gt; Faker = new Faker&lt;$FakedEntity$&gt;()&#xD;
+            .RuleFor(u =&gt; u.$FirstProperty$, f =&gt; f.$FakedProperty$)&#xD;
+            ;&#xD;
+	public static $FakedEntity$ Generate()&#xD;
+    {&#xD;
+		return Faker.Generate();&#xD;
+    }&#xD;
+	public static List&lt;$FakedEntity$&gt; Generate(int count)&#xD;
+    {&#xD;
+		return Faker.Generate(count);&#xD;
+    }&#xD;
+	$END$&#xD;
+  }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/CustomProperties/=FileName/@EntryIndexedValue">Class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/CustomProperties/=ValidateFileName/@EntryIndexedValue">True</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Field/=HEADER/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Field/=HEADER/Expression/@EntryValue">fileheader()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Field/=HEADER/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Field/=CLASS/Expression/@EntryValue">getAlphaNumericFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Field/=CLASS/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Field/=CLASS/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Field/=NAMESPACE/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Field/=FakedEntity/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Field/=FakedEntity/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Field/=FirstProperty/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Field/=FirstProperty/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Field/=FakedProperty/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Field/=FakedProperty/Order/@EntryValue">5</s:Int64></wpf:ResourceDictionary>

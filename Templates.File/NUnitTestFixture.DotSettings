@@ -9,7 +9,7 @@ namespace $NAMESPACE$&#xD;
 {&#xD;
 	[TestFixture]&#xD;
 	[ExcludeFromCodeCoverage]&#xD;
-	[Category("Unit")]&#xD;
+	[Category("$Category$")]&#xD;
 	public class $CLASS$Tests&#xD;
 	{&#xD;
 		private $CLASS$ _testModule;&#xD;
@@ -40,6 +40,8 @@ namespace $NAMESPACE$&#xD;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Field/=NAMESPACE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Field/=Category/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Field/=Category/Order/@EntryValue">2</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Field/=CLASS/Expression/@EntryValue">getAlphaNumericFileNameWithoutExtension()</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Field/=CLASS/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E89DBB3C3336D645BDE5F59777559F2C/Field/=CLASS/Order/@EntryValue">3</s:Int64></wpf:ResourceDictionary>
