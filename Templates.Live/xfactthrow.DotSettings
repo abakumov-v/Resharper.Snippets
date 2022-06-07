@@ -3,18 +3,21 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Shortcut/@EntryValue">xfactthrow</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Description/@EntryValue">xUnit test with asserting throw</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Text/@EntryValue">[Fact]&#xD;
-public void $TestedMethod$__$InputTestConditions$__Throw$Exception$()&#xD;
+public void $TestedMethod$_$InputTestConditions$_Throw$Exception$()&#xD;
 {&#xD;
 	// Arrange&#xD;
-	Action act = () =&gt; $ThrowAction$;	&#xD;
-	// Act &#xD;
-	var ex = Record.Exception(act);&#xD;
+	$END$&#xD;
+	&#xD;
+	// Act&#xD;
+	Action act = () =&gt; $ThrowAction$;&#xD;
+&#xD;
 	//Assert&#xD;
-	Assert.IsType&lt;$Exception$&gt;(ex);&#xD;
+	act.Should().Throw&lt;$Exception$&gt;();&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Categories/=My_0020Code_0020Live_0020Templates/@EntryIndexedValue">My Code Live Templates</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Categories/=Imported_002007_002DJun_002D22/@EntryIndexedValue">Imported 07-Jun-22</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>

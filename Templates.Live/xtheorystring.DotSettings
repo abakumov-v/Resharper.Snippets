@@ -6,10 +6,11 @@
 [InlineData(null)]&#xD;
 [InlineData("")]&#xD;
 [InlineData(" ")]&#xD;
-public void $TestedMethod$__$Property$IsNullOrEmpty__$AssertResult$(string $variable$)&#xD;
+public void $TestedMethod$_$Property$IsNullOrEmpty_$AssertResult$(string $variable$)&#xD;
 {&#xD;
 	// Arrange&#xD;
 	$END$&#xD;
+&#xD;
 	// Act&#xD;
 &#xD;
 	// Assert&#xD;
@@ -18,6 +19,7 @@ public void $TestedMethod$__$Property$IsNullOrEmpty__$AssertResult$(string $vari
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Categories/=My_0020Code_0020Live_0020Templates/@EntryIndexedValue">My Code Live Templates</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Categories/=Imported_002007_002DJun_002D22/@EntryIndexedValue">Imported 07-Jun-22</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
