@@ -14,6 +14,7 @@
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E45A90B916FB7C449A78F73E1A373066/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E45A90B916FB7C449A78F73E1A373066/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E45A90B916FB7C449A78F73E1A373066/Categories/=My_0020File_0020Templates/@EntryIndexedValue">My File Templates</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E45A90B916FB7C449A78F73E1A373066/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E45A90B916FB7C449A78F73E1A373066/CustomProperties/=FileName/@EntryIndexedValue">Class</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E45A90B916FB7C449A78F73E1A373066/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>

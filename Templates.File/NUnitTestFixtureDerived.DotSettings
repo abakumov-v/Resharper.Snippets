@@ -26,6 +26,7 @@ namespace $NAMESPACE$&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4004ED949CC134D931E552224E6C636/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4004ED949CC134D931E552224E6C636/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4004ED949CC134D931E552224E6C636/Categories/=My_0020File_0020Templates/@EntryIndexedValue">My File Templates</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4004ED949CC134D931E552224E6C636/CustomProperties/=FileName/@EntryIndexedValue">Class</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4004ED949CC134D931E552224E6C636/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4004ED949CC134D931E552224E6C636/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
