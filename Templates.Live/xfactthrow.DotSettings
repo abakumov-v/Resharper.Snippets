@@ -17,7 +17,6 @@ public void $TestedMethod$_$InputTestConditions$_Throw$Exception$()&#xD;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Categories/=My_0020Code_0020Live_0020Templates/@EntryIndexedValue">My Code Live Templates</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Categories/=Imported_002007_002DJun_002D22/@EntryIndexedValue">Imported 07-Jun-22</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDE3465400B4F54D9B31DEEE04FAD258/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>

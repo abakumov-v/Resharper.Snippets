@@ -5,7 +5,6 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Text/@EntryValue">public const $type$ $constName$ = $value$;</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Categories/=Imported_002001_002E12_002E2017/@EntryIndexedValue">Imported 01.12.2017</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Categories/=My_0020Code_0020Live_0020Templates/@EntryIndexedValue">My Code Live Templates</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>

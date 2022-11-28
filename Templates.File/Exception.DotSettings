@@ -15,7 +15,6 @@ $HEADER$namespace $NAMESPACE$&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Categories/=Imported_002001_002E12_002E2017/@EntryIndexedValue">Imported 01.12.2017</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/Categories/=My_0020File_0020Templates/@EntryIndexedValue">My File Templates</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=84F4A7BFB64DD74EA98FB9525ABB5370/CustomProperties/=FileName/@EntryIndexedValue">Class</s:String>
