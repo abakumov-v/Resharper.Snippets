@@ -11,7 +11,7 @@ public async Task $Method$()&#xD;
 	// Act&#xD;
 &#xD;
 	// Assert&#xD;
-	Assert.NotNull(null);&#xD;
+	"this test".Should().Be("written");&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79B169FC4441094DAC222D682CA9CD9D/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79B169FC4441094DAC222D682CA9CD9D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>

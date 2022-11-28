@@ -1,7 +1,10 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Description/@EntryValue">Static class (Fake generator)</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Text/@EntryValue">$HEADER$namespace $NAMESPACE$&#xD;
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F5094A06EB72F429EAE0061AB9E2A24/Text/@EntryValue">$HEADER$&#xD;
+using Bogus;&#xD;
+&#xD;
+namespace $NAMESPACE$&#xD;
 {&#xD;
   public static class $CLASS$ &#xD;
   {&#xD;

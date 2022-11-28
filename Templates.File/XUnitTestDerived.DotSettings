@@ -3,6 +3,7 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC227AC4E1C0AA4CA06A26DB6981D3A4/Description/@EntryValue">XUnit test (derived)</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC227AC4E1C0AA4CA06A26DB6981D3A4/Text/@EntryValue">$HEADER$using System.Diagnostics.CodeAnalysis;&#xD;
 using System.Threading.Tasks;&#xD;
+using FluentAssertions;&#xD;
 using Xunit;&#xD;
 &#xD;
 namespace $NAMESPACE$&#xD;

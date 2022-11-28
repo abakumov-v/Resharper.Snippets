@@ -14,7 +14,7 @@ public void $TestedMethod$_$Property$IsNullOrEmpty_$AssertResult$(string $variab
 	// Act&#xD;
 &#xD;
 	// Assert&#xD;
-	Assert.NotNull(null);&#xD;
+	"this test".Should().Be("written");&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7E1B90C8D94EAE418FECD3327A669E61/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>

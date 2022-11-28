@@ -4,6 +4,7 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07B4B24F11FE934FBD1B08D359491096/Text/@EntryValue">$HEADER$using System.Diagnostics.CodeAnalysis;&#xD;
 using System.Threading.Tasks;&#xD;
 using Bogus;&#xD;
+using FluentAssertions;&#xD;
 using Xunit;&#xD;
 &#xD;
 namespace $NAMESPACE$&#xD;
