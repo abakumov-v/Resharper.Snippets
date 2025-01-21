@@ -1,0 +1,23 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=246385D54EFE8F4BBBD59557D7CF4971/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=246385D54EFE8F4BBBD59557D7CF4971/Shortcut/@EntryValue">mtestasync</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=246385D54EFE8F4BBBD59557D7CF4971/Description/@EntryValue">MS Test async test method</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=246385D54EFE8F4BBBD59557D7CF4971/Text/@EntryValue">[TestCategory(TestCategory.UnitTest)]&#xD;
+[TestMethod]&#xD;
+public async Task $Method$()&#xD;
+{&#xD;
+	// Arrange&#xD;
+	$END$&#xD;
+	// Act&#xD;
+&#xD;
+	// Assert&#xD;
+	"this test".Should().Be("written");&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=246385D54EFE8F4BBBD59557D7CF4971/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=246385D54EFE8F4BBBD59557D7CF4971/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=246385D54EFE8F4BBBD59557D7CF4971/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=246385D54EFE8F4BBBD59557D7CF4971/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=246385D54EFE8F4BBBD59557D7CF4971/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=246385D54EFE8F4BBBD59557D7CF4971/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=246385D54EFE8F4BBBD59557D7CF4971/Field/=Method/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=246385D54EFE8F4BBBD59557D7CF4971/Field/=Method/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>
